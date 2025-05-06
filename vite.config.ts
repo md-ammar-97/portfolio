@@ -9,24 +9,28 @@ export default defineConfig(({ mode }) => {
   const isGitHubPages = process.env.VITE_GITHUB_PAGES === 'true';
 
   return {
-    // Use /portfolio/ base on GitHub Pages, otherwise root
-    base: isGitHubPages ? '/portfolio/' : '/',
+    // Set base path for GitHub Pages, otherwise use root
+    base: isGitHubPages ? '/portfolio/' : '/',  // Adjust base path for GitHub Pages
+
     build: {
-      // Output build into docs/ for GitHub Pages
+      // Output build into docs/ for GitHub Pages deployment
       outDir: 'docs',
     },
+
     server: {
       host: "::",  // Local development host
-      port: 8080,   // Local development port
+      port: 8080,   // Port for local development
     },
+
     plugins: [
       react(),
-      // Apply lovable tagger only in development
+      // Apply lovable tagger only in development mode
       mode === 'development' && componentTagger(),
     ].filter(Boolean),
+
     resolve: {
       alias: {
-        // Alias for src directory
+        // Resolve @ as the src directory
         "@": path.resolve(__dirname, "./src"),
       },
     },
