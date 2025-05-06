@@ -5,21 +5,28 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
-  // Determine if we're building for GitHub Pages or local/production (Lovable)
-  const isGitHubPages = process.env.VITE_GITHUB_PAGES === 'true'; // Custom environment variable to indicate deployment
+  // Detect GitHub Pages deployment
+  const isGitHubPages = process.env.VITE_GITHUB_PAGES === 'true';
 
   return {
-    base: isGitHubPages ? '/md-ammar-portfolio/' : '/',  // Conditional base path
+    // Use /portfolio/ base on GitHub Pages, otherwise root
+    base: isGitHubPages ? '/portfolio/' : '/',
+    build: {
+      // Output build into docs/ for GitHub Pages
+      outDir: 'docs',
+    },
     server: {
-      host: "::",  // Local server host
-      port: 8080,  // Port number for local development
+      host: "::",  // Local development host
+      port: 8080,   // Local development port
     },
     plugins: [
       react(),
+      // Apply lovable tagger only in development
       mode === 'development' && componentTagger(),
     ].filter(Boolean),
     resolve: {
       alias: {
+        // Alias for src directory
         "@": path.resolve(__dirname, "./src"),
       },
     },
