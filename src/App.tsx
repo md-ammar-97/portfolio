@@ -34,6 +34,8 @@ const App = () => {
     }
   }, []);
 
+  console.log("for testing");
+
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
