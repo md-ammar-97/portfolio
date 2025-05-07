@@ -18,6 +18,9 @@ const SkillLogo = ({ src, alt }: SkillLogoProps) => {
   );
 };
 
+console.log("for testing");
+
+
 const Skills = () => {
   const skillLogos = [
     { src: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746616132/Python_Logo_c61tp0.webp", alt: "Python Logo" },
