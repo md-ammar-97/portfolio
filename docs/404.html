@@ -7,8 +7,10 @@
   </head>
   <body>
     <script>
-      // Redirect to /portfolio/ to allow React Router to handle the route
-      window.location.replace('/portfolio/');
+      // Only redirect to /portfolio/ if the current path is not already /portfolio/
+      if (window.location.pathname !== '/portfolio/') {
+        window.location.replace('/portfolio/');
+      }
     </script>
   </body>
 </html>
