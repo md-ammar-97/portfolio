@@ -34,7 +34,7 @@ const App = () => {
     }
   }, []);
 
-  console.log("for testingggg");
+  console.log("for testingggggg");
 
 
   
