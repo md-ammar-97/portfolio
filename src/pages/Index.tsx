@@ -12,14 +12,14 @@ const projects = [
     description: "ERP data analysis with ML for improved sales conversion and profitability",
     techStack: ["Python", "Pandas", "Scikit-learn", "Looker Studio"],
     projectLink: "https://drive.google.com/file/d/1Y_ei5j88Zr1cWqrhga_MyTYvG0gjYvfr/view",
-    imageUrl: "https://i.postimg.cc/QtzHwXG7/Enhancing-Sample-to-Order-Conversion-at-Champo-Carpets-Using-Machine-Learning.png"
+    imageUrl: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746535987/Project_1_zcu7wa.webp"
   },
   {
     title: "AmiColo – Smart Moves for City Transitions",
     description: "Created a roommate-matching platform using AI and clustering on social indices via Facebook Graph API. Achieved 130K+ visits, 15% engagement growth, and secured $60K seed funding.",
     techStack: ["Python", "HTML", "CSS", "Scikit-learn", "pandas", "Meta API"],
     projectLink: "https://youtu.be/Wja8LpWUxqM?si=UVDBnj_F0x0j3kJs",
-    imageUrl: "/assets/project_logo/Project_20.png"
+    imageUrl: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746535995/Project_20_bkq3wc.webp"
   },
   {
     title: "Potter vs. Friends: Culture in Data",
@@ -33,21 +33,21 @@ const projects = [
     description: "Built GenAI-powered academic assistants using LangChain, Pinecone, and OpenAI to support students. Recognized among Canada's Top 40 AI projects with $50K pitch opportunity.",
     techStack: ["Python", "VectorDB", "Pinecone", "LangChain", "OpenAI API"],
     projectLink: "https://youtu.be/2jL-TQpGDfw?si=r3rZETKbsnUqAq3F",
-    imageUrl: "/assets/project_logo/Project_21.png"
+    imageUrl: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746535996/Project_21_paqbkf.webp"
   },
   {
     title: "Simulation & Optimization – Decontamination Center",
     description: "Discrete event simulation to optimize AGV vs manual operations in hospitals",
     techStack: ["Rockwell Arena", "Process Simulation"],
     projectLink: "https://docs.google.com/presentation/d/11B1h0vNq-Rdlt0mPznJ02TIJgdSeXpmK/present?slide=id.p1",
-    imageUrl: "https://i.postimg.cc/4dsDGtZk/Simulation-Optimization-of-a-Decontamination-Center-Using-Rockwell-Arena.png"
+    imageUrl: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746535987/Project_2_w9ycog.webp"
   },
   {
     title: "Uber Eats Canada: Data-Driven Optimization",
     description: "Analyzed Uber Eats data to reveal cost-performance patterns, cuisine popularity, and review sentiment using GenAI and BI tools to improve visibility and user retention.",
     techStack: ["PowerBI", "SQL", "Excel", "GenAI"],
     projectLink: "http://tiny.cc/AMR-Project-14",
-    imageUrl: "/assets/project_logo/Project_14.png"
+    imageUrl: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746535992/Project_14_dimjdq.webp"
   },
 ];
 
