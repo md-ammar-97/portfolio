@@ -20,18 +20,18 @@ const SkillLogo = ({ src, alt }: SkillLogoProps) => {
 
 const Skills = () => {
   const skillLogos = [
-    { src: "/assets/logo/Python_Logo.png", alt: "Python Logo" },
-    { src: "/assets/logo/SQL_logo.png", alt: "SQL Logo" },
-    { src: "/assets/logo/Tableau_Logo.png", alt: "Tableau Logo" },
-    { src: 'https://res.cloudinary.com/dav1ts03b/image/upload/v1746577218/Looker_LOGO_am4hbu.png', alt: "Looker Logo" },
-    { src: "/assets/logo/PowerBI_Logo.png", alt: "Power BI Logo" },
-    { src: "/assets/logo/R_Logo.png", alt: "R Logo" },
-    { src: "/assets/logo/Pandas_Logo.png", alt: "Pandas Logo" },
-    { src: "/assets/logo/NumPy_Logo.png", alt: "NumPy Logo" },
-    { src: "/assets/logo/Scikit_Learn_Logo.png", alt: "Scikit-Learn Logo" },
-    { src: "/assets/logo/VBA_MACROS_LOGO.png", alt: "Excel VBA Macros Logo" },
-    { src: "/assets/logo/CPLEX_Logo.png", alt: "CPLEX Logo" },
-    { src: "/assets/logo/GCP_LOGO.png", alt: "Google Cloud Platform Logo" },
+    { src: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746616132/Python_Logo_c61tp0.webp", alt: "Python Logo" },
+    { src: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746616134/SQL_logo_r5qcop.webp", alt: "SQL Logo" },
+    { src: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746616107/Tableau_Logo_xmwv9i.webp", alt: "Tableau Logo" },
+    { src: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746616130/Looker_LOGO_jqwpe7.webp", alt: "Looker Logo" },
+    { src: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746616131/PowerBI_Logo_u5zmuo.webp", alt: "Power BI Logo" },
+    { src: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746616132/R_Logo_eb1oup.webp", alt: "R Logo" },
+    { src: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746616131/Pandas_Logo_r1w38w.webp", alt: "Pandas Logo" },
+    { src: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746616130/NumPy_Logo_sojrfj.webp", alt: "NumPy Logo" },
+    { src: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746616133/Scikit_Learn_Logo_jzf6gz.webp", alt: "Scikit-Learn Logo" },
+    { src: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746616107/VBA_MACROS_Logo_wgxqyv.webp", alt: "Excel VBA Macros Logo" },
+    { src: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746616129/CPLEX_Logo_hbujjd.webp", alt: "CPLEX Logo" },
+    { src: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746616401/Six_Sigma_kv2mfv.webp", alt: "Six Sigma Logo" },
   ];
 
   return (
