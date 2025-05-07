@@ -7,10 +7,8 @@
   </head>
   <body>
     <script>
-      // Only redirect to the root page if the URL is not the base route (portfolio)
-      if (!window.location.pathname.startsWith('/portfolio/')) {
-        window.location.href = '/portfolio/';
-      }
+      // Redirect to /portfolio/ to allow React Router to handle the route
+      window.location.replace('/portfolio/');
     </script>
   </body>
 </html>
