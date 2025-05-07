@@ -7,8 +7,10 @@
   </head>
   <body>
     <script>
-      // Redirect all 404 requests to index.html, allowing React Router to handle them
-      window.location.href = "/portfolio/";
+      // Only redirect to the root page if the URL is not the base route (portfolio)
+      if (!window.location.pathname.startsWith('/portfolio/')) {
+        window.location.href = '/portfolio/';
+      }
     </script>
   </body>
 </html>
