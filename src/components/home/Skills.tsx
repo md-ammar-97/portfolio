@@ -23,7 +23,7 @@ const Skills = () => {
     { src: "/assets/logo/Python_Logo.png", alt: "Python Logo" },
     { src: "/assets/logo/SQL_logo.png", alt: "SQL Logo" },
     { src: "/assets/logo/Tableau_Logo.png", alt: "Tableau Logo" },
-    { src: "https://res.cloudinary.com/dav1ts03b/image/upload/v1746577218/Looker_LOGO_am4hbu.png", alt: "Looker Logo" },
+    { src: 'https://res.cloudinary.com/dav1ts03b/image/upload/v1746577218/Looker_LOGO_am4hbu.png', alt: "Looker Logo" },
     { src: "/assets/logo/PowerBI_Logo.png", alt: "Power BI Logo" },
     { src: "/assets/logo/R_Logo.png", alt: "R Logo" },
     { src: "/assets/logo/Pandas_Logo.png", alt: "Pandas Logo" },
